@@ -1,0 +1,825 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Aquadelta</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="assets/css/keyframes.css?t=1790336366" rel="stylesheet">
+  <link href="assets/css/colors.css?t=1790336366" rel="stylesheet">
+  <link href="assets/css/video.css?t=1790336366" rel="stylesheet">
+  <link href="style.css?v=1790336366" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="mx-auto container-fluid menuheader">
+      <div class="mt-8 mx-auto">
+        <div class="col-2 menudiv">
+          <button class="nav-toggle closemenu" type="button" data-toggle="nav">
+            <i></i>
+            <i></i>
+            <i></i>
+            <span class="sr-only">Menu</span>
+          </button>
+          <nav class="mt-8 mx-auto space-y-2">
+            <a class="block w-fit mx-auto goto" href="#hero">Inicio</a>
+            <a class="block w-fit mx-auto goto" href="#caracteristicas">Características</a>
+            <a class="block w-fit mx-auto goto" href="#masterplan">Masterplan</a>
+            <a class="block w-fit mx-auto goto" href="#ubicacion">Ubicación</a>
+            <a class="block w-fit mx-auto goto" href="#ciudad">Servicios</a>
+            <a class="block w-fit mx-auto goto" href="#galeria">Galeria</a>
+            <a class="block w-fit mx-auto goto" href="#redescubri">Amenities</a>
+            <a class="block w-fit mx-auto goto" href="#contacto">Contacto</a>
+          </nav>
+          <div class="absolute bottom-8 right-8 flex space-x-2 w-fit py-8 sm:py-0">
+            <a href="https://www.instagram.com/aquadelta_py/" target="_blank"><img src="assets/img/instagram_w.svg" class="w-10"></a>
+            <a href="https://www.facebook.com/aquadeltapy/ " target="_blank"><img src="assets/img/facebook_w.svg" class="w-10"></a>
+            <a href="https://www.youtube.com/@RaicesRealEstatePY" target="_blank"><img src="assets/img/youtube_w.svg" class="w-10"></a>
+          </div>
+          <img src="assets/img/Raices_Blanco.png" class="w-40 mb-4 absolute bottom-8 left-8">
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <nav id="navheader" class="fixed flex p-4 z-20 justify-between w-full ">
+    <div></div>
+    <img src="assets/img/logo-aquadelta@2x.png">
+    <div><button id="nav-toggle" type="button" data-toggle="nav">
+        <i></i>
+        <i></i>
+        <i></i>
+        <span class="sr-only">Menu</span>
+      </button></div>
+  </nav>
+  <div class="fixed bottom-20 left-8 z-50"><a class="py-4 px-6 bg-opacity-80 text-white rounded-full goto" style="background-color: rgb(255, 139, 0,0.85);" href="#contacto">DESEO RECIBIR MÁS INFO</a></div>
+  <div class="fixed bottom-16 right-8 z-50"><a href="https://api.whatsapp.com/send?phone=595216887000" target="_blank"><img src="assets/img/whatsapp.png" class="w-12 sm:w-16"></a></div>
+  <div class="absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 z-10 w-4/5 sm:w-1/2"><a><img src="assets/img/aquadelta_hero.png" class="w-[97%]"></a></div>
+  <div class="mouse">
+    <div class="wheel"></div>
+  </div>
+  <section id="hero" class="scree-w-full h-[100vh] bg-cover bg-center overflow-hidden ">
+    <video autoplay="" muted="" loop="" id="myVideo" poster="assets/img/poster.png">
+      <source src="assets/aquadelta_web_video.mp4">
+    </video>
+  </section>
+  <section id="caracteristicas" class="my-16">
+    <div class="flex flex-wrap naranja text-center justify-evenly sm:justify-between w-[95%] sm:w-[70%] mx-auto items-center ">
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none">+200 <span class="block poppins text-[12px] sm:text-[16px]">Hectáreas</span>
+      </p>
+
+      <div class="block w-[1px] h-16 2xl:h-24" style="background-color:#ff8b00" data-aos="fade-up" data-aos-delay="300"></div>
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="400">11 <span class="block poppins text-[12px] sm:text-[16px]">Barrios</span></p>
+
+      <div class="hidden sm:block w-[1px] h-16 2xl:h-24" style="background-color:#ff8b00" data-aos="fade-up" data-aos-delay="500"></div>
+      <p class="hidden sm:block newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="600">97 <span class="block poppins text-[12px] sm:text-[16px]">Lotes residenciales<br>Etapa 1</span></p>
+
+      <div class="block w-[1px] h-16 2xl:h-24" style="background-color:#ff8b00" data-aos="fade-up" data-aos-delay="700"></div>
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="800">600m2 <span class="block poppins text-[12px] sm:text-[16px]">Promedio por lote</span></p>
+
+      <div class="block w-[1px] h-16 2xl:h-24" style="background-color:#ff8b00" data-aos="fade-up" data-aos-delay="900"></div>
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="1000">46.395m2 <span class="block poppins text-[12px] sm:text-[16px]">Área deportiva</span></p>
+    </div>
+
+    <div class="flex flex-wrap naranja text-center justify-evenly sm:justify-between w-[95%] sm:w-[48%] mx-auto items-center mt-8 ">
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="1100"> <span class=" text-[24px] newsreader">USD</span>75.000<span class="block poppins text-[12px] sm:text-[16px] mb-1">Lotes unifamiliares
+          desde</span> </p>
+
+      <div class="block w-[1px] h-16 2xl:h-24" style="background-color:#ff8b00" data-aos="fade-up" data-aos-delay="1200"></div>
+
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="1300"> 25% <span class="block poppins text-[12px] sm:text-[16px] mb-1">Entrega inicial</span> </p>
+
+      <div class="block w-[1px] h-16 2xl:h-24" style="background-color:#ff8b00" data-aos="fade-up" data-aos-delay="1400"></div>
+
+      <p class="newsreader text-[1.5em] sm:text-[3em] leading-none" data-aos="fade-up" data-aos-delay="1500"> <span class=" text-[24px] newsreader">USD</span>810 <span class="block poppins text-[12px] sm:text-[16px] mb-1">Cuotas
+          desde<br>Financiación a 10 años</span> </p>
+    </div>
+  </section>
+  <section id="masterplan" class="mt-8">
+    <div class="hidden sm:flex my-8 justify-between">
+      <div class="flex-none sm:w-1/4"></div>
+      <div class="flex space-x-16 mt-3 w-1/2">
+        <div class="flex space-x-16 w-fit mx-auto">
+          <h3 class="azul btnplan" id="btnamenities">AMENITIES</h3>
+          <h3 class="naranja btnplan gotoac" id="btncomercial">PASEO COMERCIAL</h3>
+          <h3 class="celeste btnplan" id="btndeportiva">COMPLEJO DEPORTIVO</h3>
+        </div>
+      </div>
+      <div class="flex-none sm:w-1/4 pr-8"><img src="assets/img/Raices_Azul.png" class="w-[100px] mr-0 ml-auto block"></div>
+    </div>
+    <div class="sm:hidden block my-8">
+      <div class=" justify-evenly flex space-x-8 sm:space-x-16 mt-8 w-5/6 mx-auto text-center text-xs">
+        <h3>AMENITIES</h3>
+        <h3 class="naranja">PASEO COMERCIAL</h3>
+        <h3 class="celeste">COMPLEJO DEPORTIVO</h3>
+      </div>
+    </div>
+    <div class="overflow-hidden relative">
+      <div class="swiper_plan w-full h-fit">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide relative">
+            <div class="hidden sm:block">
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[46%] left-[41%] text-white text-center openmodal" data-popup="amenities_1">1</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[30%] left-[15%] text-white text-center openmodal" data-popup="amenities_9">9</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[27%] left-[18%] text-white text-center openmodal" data-popup="amenities_10">10</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[50%] left-[74%] text-white text-center openmodal" data-popup="amenities_5">5</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[21%] left-[17%] text-white text-center openmodal" data-popup="amenities_6">6</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[30%] left-[36%] text-white text-center openmodal" data-popup="amenities_7">7</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[45%] left-[13%] text-white text-center openmodal" data-popup="amenities_7">7</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[45%] left-[25%] text-white text-center openmodal" data-popup="amenities_7">7</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[58%] left-[37%] text-white text-center openmodal" data-popup="amenities_7">7</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[54%] left-[28%] text-white text-center openmodal" data-popup="amenities_7">7</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[30%] left-[38%] text-white text-center openmodal" data-popup="amenities_8">8</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[45%] left-[15%] text-white text-center openmodal" data-popup="amenities_8">8</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[45%] left-[28%] text-white text-center openmodal" data-popup="amenities_8">8</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[58%] left-[39%] text-white text-center openmodal" data-popup="amenities_8">8</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[54%] left-[31%] text-white text-center openmodal" data-popup="amenities_8">8</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[26%] left-[13%] text-white text-center openmodal" data-popup="amenities_11">11</div>
+              <div class="rounded-full bgazul absolute z-10 w-8 h-8 leading-[2em] top-[57%] left-[85%] text-white text-center openmodal" data-popup="amenities_2">2</div>
+              <div class="rounded-full bgnaranja absolute z-10 w-8 h-8 leading-[2em] top-[60%] left-[91%] text-white text-center openmodal" data-popup="comercial_1">4</div>
+              <div class="rounded-full bgceleste absolute z-10 w-8 h-8 leading-[2em] top-[53%] left-[80%] text-white text-center openmodal" data-popup="deportiva">3</div>
+              <img src="assets/img/masterplan_final.png" class="w-full">
+            </div>
+            <img src="assets/img/Masterplan_mobile.png" class="w-full sm:hidden">
+          </div>
+        </div><!-- If we need navigation buttons -->
+      </div>
+
+              <div id="comercial_1" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 naranja">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #FF8B00;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 naranja">
+                  04</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/1_1698760916_AC.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" naranja newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Todo lo que necesitas esta en Aquadelta.</h4>
+                    <p class=" naranja w-3/4">Aquadelta cuenta con 86.000 m2 destinados a una amplia variedad de tiendas retail para consumidores finales de amplia varia de rubro: supermercado, boutiques, electrónica y artículos para el hogar. Paseo gastronómico con restaurante, cafés, pubs, heladerías con una variada oferta culinaria.</p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="comercial_5" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 naranja">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #FF8B00;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 naranja">
+                  05</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/5_1695943736_comercial_5.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" naranja newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Paseo comercial y gastronómico.</h4>
+                    <p class=" naranja w-3/4">Tiendas retail para consumidores finales de amplia varia de rubro: supermercado, boutiques, electrónica y artículos para el hogar. Paseo gastronómico con restaurante, cafés, pubs, heladerías con una variada oferta culinaria.</p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="comercial_6" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 text-white">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #fff;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="w-full h-full cover overflow-hidden">
+                  <img src="/upfiles/6_1696001656_6.png" class="w-full object-cover">
+                </div>
+                <div class="absolute top-4 left-8 z-50 text-white">06 ESTACIONAMIENTO.</div>
+                          </div>
+          </div>
+        </div>
+              <div id="comercial_7" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 text-white">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #fff;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="w-full h-full cover overflow-hidden">
+                  <img src="/upfiles/7_1696001672_13.png" class="w-full object-cover">
+                </div>
+                <div class="absolute top-4 left-8 z-50 text-white">07 PÓRTICO ACCESO RESIDENCIAL.    </div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_1" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 text-white">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #fff;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="w-full h-full cover overflow-hidden">
+                  <img src="/upfiles/9_1695942827_amenities_2.png" class="w-full object-cover">
+                </div>
+                <div class="absolute top-4 left-8 z-50 text-white">01 LAGUNA Y PLAYAS.</div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_5" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 azul">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: ##053955;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 azul">
+                  05</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/12_1698761165_GMarket.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" azul newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Garden Market.</h4>
+                    <p class=" azul w-3/4">Almacén de plantas con vivero especializado en sustentabilidad y paisajismo que aporten valor al medioambiente.</p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_6" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 azul">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: ##053955;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 azul">
+                  06</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/13_1695943551_amenities_6.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" azul newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Guardería Náutica.</h4>
+                    <p class=" azul w-3/4">Servicio de guarda de embarcaciones, rampa de embarque y amarra de embarcaciones.</p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_7" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 azul">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: ##053955;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 azul">
+                  07</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/14_1695943562_amenities_7.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" azul newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Estaciones de living seco y fogones. </h4>
+                    <p class=" azul w-3/4">Aquadelta cuanta con pulmones verdes donde poder descascar junto a livings y fogones. Compartir un momento en familia o con amigos al aire libre. </p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_9" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 azul">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: ##053955;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 azul">
+                  09</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/16_1698760740_RN.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" azul newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Restaurante Náutico.</h4>
+                    <p class=" azul w-3/4">Un restaurante exclusivo con terrazas junto al río, ideal para disfrutar de una experiencia gastronómica excepcional en compañía de familiares y amigos.</p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_10" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 text-white">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #fff;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="w-full h-full cover overflow-hidden">
+                  <img src="/upfiles/17_1698761429_Amarras.png" class="w-full object-cover">
+                </div>
+                <div class="absolute top-4 left-8 z-50 text-white">10 MARINA Y MUELLE CON AMARRAS.</div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_11" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 azul">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: ##053955;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 azul">
+                  11</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/18_1698761456_Costanera.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" azul newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Costanera.</h4>
+                    <p class=" azul w-3/4">Explanada en tres niveles de contemplación y recorrido a lo largo de la vera del río con estancias, pergolados, paisajismo y llegando al ícono artístico del barrio.  </p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="deportiva" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 celeste">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #78d6d9;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="absolute top-4 left-[52%] z-50 celeste">
+                  03</div>
+                <div class="flex bg-white">
+                  <div class="w-1/2 h-full cover overflow-hidden">
+                    <img src="/upfiles/22_1695943766_deportiva.png" class="w-full object-cover">
+                  </div>
+                  <div class="w-1/2 p-4 self-end azul">
+                    <h4 class=" celeste newsreader leading-none text-[36px] w-3/4 mb-4">
+                      Club House Deportivo.</h4>
+                    <p class=" celeste w-3/4">Área deportiva de más 46.000 m2
+con canchas para diferentes disciplinas. Club house deportivo, piscina, canchas deportivas, quinchos, camineros. </p>
+                  </div>
+                </div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_2" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 text-white">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #fff;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="w-full h-full cover overflow-hidden">
+                  <img src="/upfiles/23_1698761233_portico.png" class="w-full object-cover">
+                </div>
+                <div class="absolute top-4 left-8 z-50 text-white">02 PORTICO PRINCIPAL.</div>
+                          </div>
+          </div>
+        </div>
+              <div id="amenities_8" tabindex="-1" aria-hidden="true" class="modals absolute hidden absolute !top-1/2 !left-1/2 transform -translate-y-1/2 -translate-x-1/2  z-50  w-3/5 overflow-x-hidden overflow-y-auto md:inset-0 h-fit">
+          <div class="relative w-full">
+            <!-- Modal content -->
+            <div class="relative bg-white shadow ">
+              <div class="closemodal absolute top-4 right-4 z-50 text-white">
+                <svg class="svg-icon" style="width: 1em; height: 1em;vertical-align: middle;fill: #fff;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M810.65984 170.65984q18.3296 0 30.49472 12.16512t12.16512 30.49472q0 18.00192-12.32896 30.33088l-268.67712 268.32896 268.67712 268.32896q12.32896 12.32896 12.32896 30.33088 0 18.3296-12.16512 30.49472t-30.49472 12.16512q-18.00192 0-30.33088-12.32896l-268.32896-268.67712-268.32896 268.67712q-12.32896 12.32896-30.33088 12.32896-18.3296 0-30.49472-12.16512t-12.16512-30.49472q0-18.00192 12.32896-30.33088l268.67712-268.32896-268.67712-268.32896q-12.32896-12.32896-12.32896-30.33088 0-18.3296 12.16512-30.49472t30.49472-12.16512q18.00192 0 30.33088 12.32896l268.32896 268.67712 268.32896-268.67712q12.32896-12.32896 30.33088-12.32896z" />
+                </svg>
+              </div>
+                              <div class="w-full h-full cover overflow-hidden">
+                  <img src="/upfiles/24_1698761348_park.png" class="w-full object-cover">
+                </div>
+                <div class="absolute top-4 left-8 z-50 text-white">08 CENTRAL PARK.</div>
+                          </div>
+          </div>
+        </div>
+          </div>
+  </section>
+  <section id="ubicacion" class="relative sm:pb-16 mb-8 sm:flex items-end">
+    <div class="w-full sm:w-1/2"><img src="/upfiles/1_1698758722_Plano_Ubic.jpg" class="w-full"></div>
+    <div class="w-4/5 mx-auto sm:w-1/4 2xl:-1/5 ml-8 mt-8 sm:mt-0">
+      <h3 class="newsreader text-[18pt] sm:text-lg lg:text-[28pt] pb-4 leading-none">Una ciudad a minutos de Asunción.</h3>
+      <p class="lg:text-[11pt] text-[11px]">Aquadelta, en un entorno natural de más de 200 hectáreas y ubicado a solo 30 minutos del eje corporativo de Asunción, ofrece la posibilidad de disfrutar de “una vida de fin de semana todos los días”, en conexión directa con el río, la naturaleza y amenities de primer nivel para compartirlo con la familia y amigos.<br />
+<br />
+Concebido como una ciudad sustentable, este proyecto es el resultado de la comprobada experiencia en desarrollos inmobiliarios de Raíces Real Estate, con sus más de 20 barrios cerrados lanzados exitosamente, y el expertise de profesionales nacionales e internacionales en materia de urbanismo, hidrología, vialidad y biología.</p>
+      <img src="assets/img/Raices_Azul.png" class="w-24 my-8">
+    </div>
+
+    <p class="hidden sm:block absolute right-5 top-1/2 z-1 newsreader verticalText text-[2rem]  ">Volvé a soñar la vida que querés vivir.</p>
+  </section>
+  <span id="damero"></span>
+  <div class="block sm:hidden overflow-hidden w-full">
+    <div>
+      <p class="leading-none celeste newsreader leading-none text-end ml-auto my-8 mr-4 w-4/5 text-[18pt]">
+        Todos los servicios de la ciudad en un nuevo centro urbano.</p>
+    </div>
+    <div class="swiper_ho w-full h-fit">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1705350349_AComercial.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Paseo Comercial.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Aquadelta cuanta con una amplia variedad de servicios para garantizar el confort de vivir en la ciudad junto al río.</p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1715190537_bloque1_img2.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Campus universitario.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Maestría y posgrado en más de 30 especialidades: experimenta tecnología de vanguardia, profesores de renombre internacional y oportunidad de networking, todo enmarcado en un entorno natural.</p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1715190537_bloque1_img3.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Colegio.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Modelo pedagógico tras lingüista “Español, portugués, Inglés, Guaraní”  Énfasis en la tecnología. Aprendizaje del software, de inteligencia artificial, de codificación.  Alumnos locales, con visión Internacional.</p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1715190537_bloque1_img4.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Oficinas Corporativas.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Bajo un nuevo concepto de coworking en el que la calidad, el confort y la exclusividad se perciben en cada detalle.</p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1715190537_bloque1_img6.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Comercios y gastronomía.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Tiendas retail para consumidores finales de amplia varia de rubro: supermercado, boutiques, electrónica y artículos para el hogar. Paseo gastronómico con restaurante, cafés, pubs, heladerías con una variada oferta culinaria.</p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1715190537_bloque1_img7.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">4,6 hectáreas.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Superficie destinadas a Club house deportivo, piscina, canchas deportivas, quinchos, camineros. </p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1715190537_bloque1_img8.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Garden Market.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Almacén de plantas con vivero especializado en sustentabilidad y paisajismo que aporten valor al medioambiente.  </p>
+              </div>
+            </div>
+          </div>
+                  <div class="swiper-slide ">
+            <div class="w-full relative block">
+              <img src="assets/img/Raices_Azul.png" class="w-1/5 absolute left-[53%] top-4">
+              <div class="w-1/2 bg-cover bg-center h-[35vh]" style="background-image:url(/upfiles/1_1705350535_Tienda.png)"></div>
+              <div class="w-[48%] absolute left-[53%]" style="bottom: 0.5rem;">
+                <h4 class="newsreader leading-none text-[18pt]">Tiendas de conveniencia.</h4>
+                <p class=" w-4/5 mt-3 text-[11px]">Entre otro servicios como estaciones de servicio, farmacias, clínica médica, espacio de coworking, street mall, oficinas ejecutivas, fast food.</p>
+              </div>
+            </div>
+          </div>
+              </div>
+    </div>
+
+    <div>
+      <p class="leading-none celeste newsreader leading-none text-start ml-4 w-4/5  text-[18pt] my-8 ">Conectado a la armonía  de la naturaleza y los últimos avances de tecnología en infraestructura.      </p>
+    </div>
+  </div>
+  <div class="sticky-container hidden sm:block">
+    <div class="main">
+      <section class="h-[100vh]">
+        <div id="deportes1">
+          <div class="relative">
+            <img src="/upfiles/1_1705350349_AComercial.png" class="w-full">
+            <h4>Paseo Comercial.</h4>
+          </div>
+          <p class="text-end w-2/3 mr-0 ml-auto mt-3">Aquadelta cuanta con una amplia variedad de servicios para garantizar el confort de vivir en la ciudad junto al río.</p>
+
+        </div>
+        <div id="universidad1" class="divhover">
+          <div class="relative">
+            <img src="/upfiles/1_1715190537_bloque1_img2.png" class="w-full">
+            <div class="hover z-10 bgceleste azul absolute">
+              <h5 class="leading-none mb-1">Campus universitario.</h5>
+              <p>Maestría y posgrado en más de 30 especialidades: experimenta tecnología de vanguardia, profesores de renombre internacional y oportunidad de networking, todo enmarcado en un entorno natural.</p>
+            </div>
+          </div>
+          <p class="text-start w-3/4 mr-0 ml-auto mt-3">Asociación con una destacada universidad internacional de alcance global.</p>
+        </div>
+        <div id="colegio1" class="divhover">
+
+          <div class="relative">
+            <img src="/upfiles/1_1715190537_bloque1_img3.png" class="w-full">
+            <div class="hover z-10 bgceleste azul absolute">
+              <h5 class="leading-none mb-1">Colegio.</h5>
+              <p>Modelo pedagógico tras lingüista “Español, portugués, Inglés, Guaraní”  Énfasis en la tecnología. Aprendizaje del software, de inteligencia artificial, de codificación.  Alumnos locales, con visión Internacional.</p>
+            </div>
+          </div>
+          <h4>Educación.</h4>
+        </div>
+        <div id="frase1">
+          <p class="leading-none celeste newsreader leading-none text-end">Todos los servicios de la ciudad en un nuevo centro urbano.</p>
+        </div>
+        <div id="resto1" class="divhover">
+          <div class="relative">
+            <img src="/upfiles/1_1715190537_bloque1_img4.png" class="w-full">
+            <div class="hover z-10 bgazul text-white absolute">
+              <h5 class="leading-none mb-1">Oficinas Corporativas.</h5>
+              <p>Bajo un nuevo concepto de coworking en el que la calidad, el confort y la exclusividad se perciben en cada detalle.</p>
+            </div>
+          </div>
+          <p class="text-start w-2/3 mt-3">Espacios creados para acoger a empresas y profesionales.</p>
+        </div>
+        <div id="raicesabs">
+          <img src="assets/img/Raices_Azul.png" class="w-full">
+        </div>
+        <div id="comercial1">
+          <img src="/upfiles/1_1715190537_bloque1_img5.png" class="w-full">
+          <p class="text-end w-2/3 mr-0 ml-auto mt-3">Paseo comercial con 86.000 m2.</p>
+        </div>
+        <div id="mercado1" class="divhover">
+
+          <div class="relative">
+            <img src="/upfiles/1_1715190537_bloque1_img6.png" class="w-full">
+            <div class="hover z-10 bgnaranja text-white absolute">
+              <h5 class="leading-none mb-1">Comercios y gastronomía.</h5>
+              <p>Tiendas retail para consumidores finales de amplia varia de rubro: supermercado, boutiques, electrónica y artículos para el hogar. Paseo gastronómico con restaurante, cafés, pubs, heladerías con una variada oferta culinaria.</p>
+            </div>
+          </div>
+          <h4>Paseo comercial.</h4>
+        </div>
+        <div id="paddle" class="divhover">
+          <p class="text-start w-3/4 mb-3">Todo lo que necesitas para vivir sin salir del Aquadelta.</p>
+          <div class="relative">
+            <img src="/upfiles/1_1705350535_Tienda.png" class="w-full">
+            <div class="hover z-10 bgceleste azul absolute">
+              <h5 class="leading-none mb-1">Tiendas de conveniencia.</h5>
+              <p>Entre otro servicios como estaciones de servicio, farmacias, clínica médica, espacio de coworking, street mall, oficinas ejecutivas, fast food.</p>
+            </div>
+          </div>
+        </div>
+        <div id="raicesabs2">
+          <img src="assets/img/Raices_Azul.png" class="w-full">
+        </div>
+        <div id="pool">
+          <img src="/upfiles/1_1705350535_estacion_1.png" class="w-full">
+          <p class="text-end w-2/3 mr-2 ml-auto"></p>
+          <h4>Estación de servicio.</h4>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section id="galeria" class="py-8 sm:py-32 overflow-hidden">
+    <div class="swiper w-2/3 h-fit">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+                  <div class="swiper-slide"><img src="/upfiles/67_1705350266_Acomercial_Slider.png"> </div>
+                  <div class="swiper-slide"><img src="/upfiles/68_1705350281_Costa_Noche.png"> </div>
+              </div>
+    </div>
+    <div class="relative w-2/3 mt-4 mx-auto h-[40px]">
+      <!-- If we need pagination -->
+      <div class="swiper-pagination w-fit ml-3"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev right-[45px] left-auto"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+  <section id="redescubri" class="py-16 block" style="background-color: #002F46;">
+    <div class="mb-16">
+      <img src="assets/img/damero_2_titulo.png" class="w-3/4 sm:w-1/3 sm:ml-[37%] mx-auto">
+    </div>
+    <div class="flex justify-between">
+      <div id="ciudadrio" class="w-1/3 sm:w-1/4 mt-8 relative divhover">
+        <div class="relative">
+          <img src="/upfiles/1_1705350633_Meeting.png" class="w-full">
+          <div class="hover z-10 bgnaranja text-white absolute">
+            <h5 class="leading-none mb-1">Disfrutar de la vista.</h5>
+            <p>Elegante salón de eventos sociales con vistas al río.</p>
+          </div>
+        </div>
+        <h4 class="text-white z-10">Salón de eventos.</h4>
+      </div>
+      <div class="w-1/2 divhover" id="actividades">
+        <div class="relative">
+          <img src="/upfiles/1_1705350633_restaurante.png" class="w-full">
+          <div class="hover z-10 bgtiza naranja absolute">
+            <h5 class="leading-none mb-1">Club house náutico.</h5>
+            <p>Un restaurante exclusivo con terrazas junto al río, ideal para disfrutar de una experiencia gastronómica excepcional en compañía de familiares y amigos.</p>
+          </div>
+        </div>
+        <p class="w-4/5 sm:w-1/2 mt-4 text-white text-xs sm: text-md">Muelle ubicado a menos de 10 minutos por agua del muelle del Club Centenario en Surubi’i.</p>
+      </div>
+    </div>
+
+    <div class="block sm:flex justify-between mt-16">
+      <div class="w-3/4 sm:w-1/2">
+        <div id="airelibre" class="divhover sm:w-2/3 ml-auto mr-0 relative">
+          <img src="/upfiles/1_1705350633_Guarderia.png" class="w-full">
+
+          <div class="hover z-10 bgceleste azul absolute">
+            <h5 class="leading-none mb-1">Guardería náutica.</h5>
+            <p>Servicio de guarda de embarcaciones, rampa de embarque y amarra de embarcaciones.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-1/2 hidden sm:block">
+        <div id="frase3" class="text-end ml-auto mr-8">Disfrutá de las olas <p> 3,1 hectáreas de laguna de aguas cristalinas con tecnología de generación de olas rodeadas con playas de arena blanca <p> y un Wet Cocktail bar.</div>
+      </div>
+    </div>
+    <div class="flex justify-between items-end sm:-mt-32 mt-8">
+      <div class="divhover relative w-[40vw] sm:w-1/3 mt-8 sm:mt-0">
+        <div class="relative ml-auto mr-8 w-full sm:w-[25vw]">
+          <img src="/upfiles/1_1695242056_Laguna.png" class="w-full">
+
+          <div class="hover z-10 bgtiza  azul absolute bottom-0 left-0 w-full sm:w-3/4">
+            <h5 class="leading-none mb-1">Disfrutá de las olas.</h5>
+            <p>3.1 hectáreas de laguna de aguas cristalinas. Con tecnología de generación de olas rodeadas con playas de arena blanca y un Wet Cocktail bar.</p>
+          </div>
+        </div>
+
+      </div>
+      <div id="servicios" class="divhover w-[50vw] sm:w-1/3">
+        <div class="relative ml-auto mr-8 w-full sm:w-[25vw]">
+          <img src="/upfiles/1_1705350633_Costa.png" class="w-full">
+
+          <div class="hover z-10 bgazul text-white absolute">
+            <h5 class="leading-none mb-1">Costanera.</h5>
+            <p>Explanada en tres niveles de contemplación y recorrido a lo largo de la vera del río con estancias, pergolados, paisajismo y llegando al ícono artístico del barrio. </p>
+          </div>
+          <h4 class="text-white">Vista privilegiada.</h4>
+        </div>
+      </div>
+    </div>
+    <div class="sm:flex justify-between px-8 py-16">
+      <div class="w-3/4 sm:w-1/4">
+        <div class="raices3">
+          <img src="assets/img/Raices_Blanco.png" class="w-40 mb-4">
+          <p>En Raices Real Estate nos especializamos en el desarrollo de Barrios Cerrados de grandes dimensiones, con el objetivo de construir una vida en comunidad poniendo en valor los grandes espacios verdes, amenidades y la seguridad. </p>
+        </div>
+      </div>
+      <div class="frase4 w-3/4 sm:w-1/2 mt-8 ">
+        <p class=" celeste newsreader leading-tight sm:leading-none text-end ">Bienvenido a Aquadelta, la primera ciudad edificada a los pies del río Paraguay. El equilibrio perfecto entre la armonía de la naturaleza y los últimos avances de tecnología en infraestructura.</p>
+      </div>
+    </div>
+  </section>
+  <section>
+    <video muted="" loop="" id="myVideo2" controls poster="assets/poster2.png" class="w-full">
+      <source src="assets/aquadelta_video_footer_4.mp4">
+    </video>
+  </section>
+  <section id="contacto" class="py-32" style="background-color: #002F46;">
+    <div class="w-4/5 mx-auto md:flex">
+      <div class="w-full md:w-2/5 mb-8 md:md-0">
+        <form class="space-y-6 text-white form">
+          <h3 class="celeste">CONTACTO</h3>
+          <div class="flex"><label class="block w-[80px]">Nombre</label> <input class="grow" type="text" name="nombre" required=""></div>
+          <div class="flex"><label class="block w-[80px]">Apellido</label> <input class="grow" type="text" name="apellido" required=""></div>
+          <div class="flex"><label class="block w-[80px]">Celular</label> <input class="grow" type="tel" name="telefono" required=""></div>
+          <div class="flex"><label class="block w-[80px]">Email</label> <input class="grow" type="email" name="email" required=""></div>
+         <input type="hidden" name="recaptcha_response" id="recaptchaResponse">  <!-- -->
+          <button id="submit-button" type="submit" class="celeste rounded-full bordeceleste ml-[80px] px-4 py-1 mt-4">Más Información</button>
+        </form>
+        <div class="space-y-6 text-white" id="alert"></div>
+      </div>
+      <div class="w-1/5 text-end"></div>
+      <div class="w-full md:w-2/5 text-center md:text-end biglinks space-y-4 azul mt-16 sm:mt-0">
+        <a class=" goto" href="#hero">Inicio</a>
+        <a class=" goto" href="#caracteristicas">Características</a>
+        <a class=" goto" href="#masterplan">Masterplan</a>
+        <a class=" goto" href="#ubicacion">Ubicación</a>
+        <a class=" goto" href="#ciudad">Servicios</a>
+        <a class=" goto" href="#galeria">Galeria</a>
+        <a class=" goto" href="#redescubri">Amenities</a>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-white py-16 px-8">
+    <div class="w-fit mx-auto flex justify-between mb-8 relative">
+      <img src="assets/img/logo-aquadelta-footer.png" class="w-[250px] mx-auto block">
+    </div>
+    <div class="mx-auto sm:flex sm:justify-stretch" style="width:80vw; max-width: 1222px;">
+      <div class="hidden sm:block my-8 sm:my-0  sm:w-1/3">
+        <div class="w-40 ml-0 mr-auto">
+          <img src="assets/img/Raices_Azul.png" class="w-40 mx-auto">
+          <div class="flex w-fit py-8 sm:py-0 w-full justify-evenly mt-4">
+            <a href="https://www.instagram.com/aquadelta_py/" target="_blank"><img src="assets/img/instagram.svg" class="w-10"></a>
+            <a href="https://www.facebook.com/aquadeltapy/ " target="_blank"><img src="assets/img/facebook.svg" class="w-10"></a>
+            <a href="https://www.youtube.com/@RaicesRealEstatePY" target="_blank"><img src="assets/img/youtube.svg" class="w-10"></a>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 text-center space-y-6 azul">
+        <p>Oficinas corporativas:<br>Av. Aviadores del Chaco 2812,<br>Asunción, Paraguay</p>
+        <a class="mx-auto  block relative w-fit" href="https://api.whatsapp.com/send?phone=595216887000" target="_blank"><img src="assets/img/contactar.svg" class="w-40"></a>
+        <div class="sm:hidden flex w-fit py-8 sm:py-0 w-full justify-evenly mt-4">
+          <a href="https://www.instagram.com/aquadelta_py/" target="_blank"><img src="assets/img/instagram.svg" class="w-10"></a>
+          <a href="https://www.facebook.com/aquadeltapy/ " target="_blank"><img src="assets/img/facebook.svg" class="w-10"></a>
+          <a href="https://www.youtube.com/@RaicesRealEstatePY" target="_blank"><img src="assets/img/youtube.svg" class="w-10"></a>
+        </div>
+      </div>
+      <div class="hidden sm:flex w-fit sm:w-1/3 py-8 sm:py-0">
+        <a href="" target="_blank" class=" ml-auto mr-0"><img src="assets/img/sothebys-logo-20.png" class="w-60"></a>
+      </div>
+    </div>
+    <div class="flex sm:hidden justify-between py-8 space-x-12 ">
+      <img src="assets/img/Raices_Azul.png" class="w-32 mx-auto">
+      <a href="" target="_blank" class=" ml-auto mr-0 self-center"><img src="assets/img/sothebys-logo-20.png"></a>
+    </div>
+
+    <div class="container text-center mt-8">
+      <p class="w-4/5 mx-auto text-[12px] azul">“Las imágenes presentadas en este material fueron aprobadas para efectos orientativos, y tienen
+        por finalidad describir características del emprendimiento. Por ello informamos que se pueden presentar variaciones con respecto a las
+        imágenes reproducidas en este materail.”</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="assets/js/sticky.js?t=1790336366" crossorigin="anonymous"></script>
+  <!-- Google -->
+  <script async="" src="https://www.google.com/recaptcha/api.js?render=6LfrcRIpAAAAAOamqcYfBGIzfhDvTDKrgLDrl7mS"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

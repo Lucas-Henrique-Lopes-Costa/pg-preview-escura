@@ -1,0 +1,100 @@
+/* GERADO POR build/legacy-css.js a partir de lp.css -- nao edite a mao.
+   Compatibilidade com Tizen 5.0 / Chromium 63 (a TV da sala). Cada bloco so
+   roda no engine antigo; navegador moderno pula o @supports inteiro. */
+
+/* clamp() e do Chrome 79; cai no valor maximo, que e o que a TV (1920px) usaria */
+@supports not (width: clamp(1px, 2px, 3px)) {
+  .sec{padding:96px 0}
+  h1{font-size:50px}
+  h2{font-size:40px}
+  h3{font-size:25px}
+  .lead{font-size:20px}
+  .cta{font-size:18px}
+  .hero{padding-top:78px}
+  .hero-grid{gap:56px}
+  .big-quote{font-size:36px}
+  .num .big{font-size:58px}
+  .offer-box{padding:48px}
+  .cover-shot img{width:220px}
+  .price-row .big{font-size:54px}
+
+}
+
+/* propriedades logicas sao do Chrome 87 */
+@supports not (padding-inline: 0) {
+  .wrap{padding-left:40px;padding-right:40px}
+
+}
+
+/* o atalho inset e do Chrome 87 */
+@supports not (inset: 0) {
+  .video iframe{top:0;right:0;bottom:0;left:0}
+  .bump .bx::after{top:-2px;right:0;bottom:0;left:0}
+
+}
+
+/* no grid, o nome gap so virou alias de grid-gap no Chrome 66 */
+@supports not (row-gap: 1px) {
+  .hero-grid{grid-gap:56px}
+  .nums{grid-gap:1px}
+  .press{grid-gap:16px}
+  .offer-grid{grid-gap:28px}
+  .people{grid-gap:26px}
+  .qual{grid-gap:22px}
+
+}
+
+/* aspect-ratio e do Chrome 88; sem ela a caixa zera e a <img> some */
+@supports not (aspect-ratio: 1 / 1) {
+  .video::before{content:'';display:block;padding-top:56.25%}.video>img{position:absolute;top:0;left:0}
+
+}
+
+/* gap em flexbox e do Chrome 84 e nenhum @supports o distingue com
+   seguranca, entao quem decide e o teste real feito pelo snippet do <head> */
+  .no-flexgap .cta>*+*{margin-left:12px}
+  .no-flexgap .seals>*+*{margin-left:20px}
+  .no-flexgap .seals>*{margin-bottom:8px}.no-flexgap .seals{margin-bottom:-8px}
+  .no-flexgap .hero .brand>*+*{margin-left:10px}
+  .no-flexgap .dm .who>*+*{margin-left:10px}
+  .no-flexgap .alertlist li>*+*{margin-left:14px}
+  .no-flexgap .cover-shot>*+*{margin-left:16px}
+  .no-flexgap .cover-shot>*{margin-bottom:16px}.no-flexgap .cover-shot{margin-bottom:-16px}
+  .no-flexgap .chapters>*+*{margin-top:4px}
+  .no-flexgap .chapter>*+*{margin-left:18px}
+  .no-flexgap .guar-inline>*+*{margin-left:16px}
+  .no-flexgap .guar-inline>*{margin-bottom:16px}.no-flexgap .guar-inline{margin-bottom:-16px}
+  .no-flexgap .bump>*+*{margin-left:18px}
+  .no-flexgap .naolist>*+*{margin-top:18px}
+  .no-flexgap .testi .who>*+*{margin-left:12px}
+  .no-flexgap .qbox ul>*+*{margin-top:13px}
+  .no-flexgap .qbox li>*+*{margin-left:12px}
+  .no-flexgap .faq>*+*{margin-top:12px}
+  .no-flexgap .faq summary>*+*{margin-left:16px}
+  .no-flexgap .foot .fb>*+*{margin-left:10px}
+
+
+/* margens auto declaradas no fonte, repostas por cima das sinteticas */
+  .no-flexgap .wrap{margin:0 auto !important}
+  .no-flexgap .video{margin:30px auto 0 !important}
+  .no-flexgap .dm{margin:26px auto !important}
+  .no-flexgap .alertlist{margin:30px auto 0 !important}
+  .no-flexgap .big-quote{margin:44px auto 0 !important}
+  .no-flexgap .pricetable{margin:36px auto 0 !important}
+  .no-flexgap .tblnote{margin:12px auto 0 !important}
+  .no-flexgap .kicker{margin:32px auto 0 !important}
+  .no-flexgap .press{margin:16px auto 0 !important}
+  .no-flexgap .offer-box{margin:0 auto !important}
+  .no-flexgap .offer-box .sub{margin:14px auto 0 !important}
+  .no-flexgap .offer-box .cta{margin:24px auto 0 !important}
+  .no-flexgap .bump{margin:28px auto 0 !important}
+  .no-flexgap .garantia .seal{margin:0 auto 24px !important}
+  .no-flexgap .naolist{margin:30px auto 0 !important}
+  .no-flexgap .team-note{margin:26px auto 0 !important}
+  .no-flexgap .testi{margin:36px auto 0 !important}
+  .no-flexgap .faq{margin:44px auto 0 !important}
+  .no-flexgap .fechamento h2{margin:0 auto !important}
+  .no-flexgap .legal p{margin:0 auto !important}
+  @media (max-width:760px){
+    .no-flexgap .hero-photo{margin:0 auto !important}
+  }

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs><clipPath id="pyr"><rect width="1000" height="1000" rx="150"/></clipPath></defs>
+  <g clip-path="url(#pyr)">
+    <rect width="1000" height="1000" fill="#0038a8"/>
+    <rect width="1000" height="667" fill="#ffffff"/>
+    <rect width="1000" height="333" fill="#d52b1e"/>
+    <circle cx="500" cy="500" r="130" fill="#ffffff" stroke="#009b3a" stroke-width="26"/>
+    <circle cx="500" cy="500" r="130" fill="none" stroke="#c8a005" stroke-width="6"/>
+    <path d="M500,405 L522.3,469.3 L590.4,470.6 L536.1,511.7 L555.8,576.9 L500,538 L444.2,576.9 L463.9,511.7 L409.6,470.6 L477.7,469.3 Z" fill="#ffcc00"/>
+  </g>
+</svg>

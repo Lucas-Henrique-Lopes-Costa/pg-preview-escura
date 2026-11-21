@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <defs>
+    <clipPath id="brr"><rect width="1000" height="1000" rx="150"/></clipPath>
+    <clipPath id="brglobe"><circle cx="500" cy="500" r="176"/></clipPath>
+  </defs>
+  <g clip-path="url(#brr)">
+    <rect width="1000" height="1000" fill="#009b3a"/>
+    <path d="M500 150 L850 500 L500 850 L150 500 Z" fill="#ffdf00"/>
+    <g clip-path="url(#brglobe)">
+      <rect x="324" y="324" width="352" height="352" fill="#002776"/>
+      <path d="M338 548 Q500 470 664 550 L664 596 Q500 516 338 596 Z" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>

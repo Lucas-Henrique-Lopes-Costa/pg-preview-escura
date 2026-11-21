@@ -1,0 +1,21 @@
+# O GitHub Pages roda Jekyll neste repositorio.
+#
+# Cuidado: definir `exclude` substitui a lista padrao do Jekyll em vez de somar
+# a ela. Por isso os itens padrao estao repetidos aqui -- tirar qualquer um
+# deles volta a publicar o que o Jekyll ignorava sozinho.
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # Ferramentas de build do proprio site.
+  - build/
+  - package.json
+  - package-lock.json
+  - tailwind.config.js

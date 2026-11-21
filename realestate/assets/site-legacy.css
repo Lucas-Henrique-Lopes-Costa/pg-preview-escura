@@ -1,0 +1,121 @@
+/* GERADO POR build/legacy-css.js a partir de site.css -- nao edite a mao.
+   Compatibilidade com Tizen 5.0 / Chromium 63 (a TV da sala). Cada bloco so
+   roda no engine antigo; navegador moderno pula o @supports inteiro. */
+
+/* clamp() e do Chrome 79; cai no valor maximo, que e o que a TV (1920px) usaria */
+@supports not (width: clamp(1px, 2px, 3px)) {
+  :root{--pad:64px}
+  .h-xl{font-size:74px}
+  .h-lg{font-size:50px}
+  .h-md{font-size:36px}
+  .lead{font-size:20px}
+  .nav{gap:28px}
+  .hero h1{font-size:48px}
+  .sec{padding:130px 0}
+  .pagehero-in{padding-bottom:88px}
+  .stat .n{font-size:56px}
+  .split{gap:72px}
+  .auth{gap:68px}
+  .ctaband{padding:120px 0}
+  .panel{padding:48px}
+  .intro .body p{font-size:18px}
+
+}
+
+/* propriedades logicas sao do Chrome 87 */
+@supports not (padding-inline: 0) {
+  .wrap{padding-left:var(--pad);padding-right:var(--pad)}
+  .hdr-in{padding-left:52px;padding-right:52px}
+  .hero-arrows{padding-left:40px;padding-right:40px}
+  .sec-head.center{margin-left:auto;margin-right:auto}
+  .center .divider{margin-left:auto;margin-right:auto}
+
+}
+
+/* o atalho inset e do Chrome 87 */
+@supports not (inset: 0) {
+  .hdr{top:0;right:0;bottom:auto;left:0}
+  .drawer{top:0;right:0;bottom:0;left:0}
+  .hero-slides{top:0;right:0;bottom:0;left:0}
+  .hero-slide{top:0;right:0;bottom:0;left:0}
+  .hero::after{top:0;right:0;bottom:0;left:0}
+  .pagehero .bg{top:0;right:0;bottom:0;left:0}
+  .pagehero::after{top:0;right:0;bottom:0;left:0}
+  .split-media .frame{top:16px;right:-16px;bottom:-16px;left:16px}
+  .area::after{top:0;right:0;bottom:0;left:0}
+  .ctaband .bg{top:0;right:0;bottom:0;left:0}
+  .ctaband::after{top:0;right:0;bottom:0;left:0}
+
+}
+
+/* no grid, o nome gap so virou alias de grid-gap no Chrome 66 */
+@supports not (row-gap: 1px) {
+  .stats{grid-gap:1px}
+  .grid-3{grid-gap:26px}
+  .grid-2{grid-gap:26px}
+  .props{grid-gap:28px}
+  .split{grid-gap:72px}
+  .auth{grid-gap:68px}
+  .rev-grid{grid-gap:26px}
+  .areas{grid-gap:18px}
+  .form{grid-gap:18px}
+  .searchbar{grid-gap:14px}
+  .ig{grid-gap:8px}
+  .foot-grid{grid-gap:40px}
+  @media (max-width:720px){
+    .auth{grid-gap:34px}
+  }
+}
+
+/* aspect-ratio e do Chrome 88; sem ela a caixa zera e a <img> some */
+@supports not (aspect-ratio: 1 / 1) {
+  .prop-img::before{content:'';display:block;padding-top:66.6667%}.prop-img>img{position:absolute;top:0;left:0}
+  .area::before{content:'';display:block;padding-top:133.3333%}.area>img{position:absolute;top:0;left:0}
+  .ig a::before{content:'';display:block;padding-top:100%}.ig a>img{position:absolute;top:0;left:0}
+
+}
+
+/* gap em flexbox e do Chrome 84 e nenhum @supports o distingue com
+   seguranca, entao quem decide e o teste real feito pelo snippet do <head> */
+  .no-flexgap .btn>*+*{margin-left:10px}
+  .no-flexgap .hdr-in>*+*{margin-left:24px}
+  .no-flexgap .brand>*+*{margin-left:12px}
+  .no-flexgap .nav>*+*{margin-left:28px}
+  .no-flexgap .hdr-tools>*+*{margin-left:16px}
+  .no-flexgap .lang-btn>*+*{margin-left:7px}
+  .no-flexgap .lang-menu button>*+*{margin-left:10px}
+  .no-flexgap .hdr-phone>*+*{margin-left:8px}
+  .no-flexgap .drawer nav>*+*{margin-top:4px}
+  .no-flexgap .drawer-foot>*+*{margin-top:14px}
+  .no-flexgap .hero-cta>*+*{margin-left:16px}
+  .no-flexgap .hero-cta>*{margin-bottom:16px}.no-flexgap .hero-cta{margin-bottom:-16px}
+  .no-flexgap .hero-dots>*+*{margin-left:10px}
+  .no-flexgap .prop-loc>*+*{margin-left:6px}
+  .no-flexgap .prop-meta>*+*{margin-left:18px}
+  .no-flexgap .prop-meta span>*+*{margin-left:6px}
+  .no-flexgap .vlist>*+*{margin-top:2px}
+  .no-flexgap .vitem>*+*{margin-left:20px}
+  .no-flexgap .auth-badges>*+*{margin-left:14px}
+  .no-flexgap .auth-badges>*{margin-bottom:14px}.no-flexgap .auth-badges{margin-bottom:-14px}
+  .no-flexgap .review>*+*{margin-top:16px}
+  .no-flexgap .review .who>*+*{margin-left:12px}
+  .no-flexgap .field>*+*{margin-top:8px}
+  .no-flexgap .foot .fbrand>*+*{margin-left:12px}
+  .no-flexgap .socials>*+*{margin-left:12px}
+  .no-flexgap .foot-bottom>*+*{margin-left:16px}
+  .no-flexgap .foot-bottom>*{margin-bottom:16px}.no-flexgap .foot-bottom{margin-bottom:-16px}
+  .no-flexgap .wa-float>*+*{margin-left:10px}
+  .no-flexgap .intro .body>*+*{margin-top:22px}
+
+
+/* margens auto declaradas no fonte, repostas por cima das sinteticas */
+  .no-flexgap .wrap{margin:0 auto !important}
+  .no-flexgap .hdr-in{margin:0 auto !important}
+  .no-flexgap .nav{margin-left:auto !important}
+  .no-flexgap .drawer-foot{margin-top:auto !important}
+  .no-flexgap .hero h1{margin:0 auto !important}
+  .no-flexgap .hero .lead{margin:26px auto 0 !important}
+  .no-flexgap .review .who{margin-top:auto !important}
+  .no-flexgap .intro h2{margin:0 auto !important}
+  .no-flexgap .intro .body{margin:34px auto 0 !important}
+

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta name="robots" content="noindex,nofollow">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9GC6B1H6Y7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9GC6B1H6Y7');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aquadelta · A primeira cidade às margens do rio Paraguay | Paraguai Global Group Real Estate</title>
+  <meta name="description"
+    content="Aquadelta: +200 hectares, laguna com ondas artificiais, marina, clube náutico e paseo comercial a 30 minutos de Assunção. Consulte valores e condições no WhatsApp.">
+  <link rel="icon" href="../assets/logo-sem-fundo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="../assets/site-legacy.css">
+  <script>
+    (function () {
+      var e = document.documentElement, falta;
+      try {
+        var f = document.createElement('div');
+        f.style.cssText = 'display:flex;flex-direction:column;row-gap:10px;position:absolute;visibility:hidden';
+        f.appendChild(document.createElement('div'));
+        f.appendChild(document.createElement('div'));
+        e.appendChild(f);
+        falta = f.scrollHeight !== 10;
+        e.removeChild(f);
+      } catch (err) { falta = true; }
+      if (falta) e.className += ' no-flexgap';
+    })();
+  </script>
+
+<style>
+/* ===== Aquadelta — página do empreendimento ===== */
+.ad-serif{font-family:'Newsreader',var(--serif);font-weight:400}
+
+/* ---------- hero em vídeo ---------- */
+.ad-hero{
+  position:relative;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden;
+  background:var(--ink) url(../assets/aquadelta/hero-poster.jpg) center/cover no-repeat;
+}
+.ad-hero video,.ad-hero img.fallback{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.ad-hero .scrim{position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,9,6,.35) 0%,rgba(11,9,6,.35) 45%,rgba(11,9,6,.94) 100%)}
+.ad-hero .wrap{position:relative;z-index:2;padding-bottom:clamp(48px,7vw,88px);padding-top:140px}
+.ad-hero-logo{width:clamp(150px,22vw,230px);margin-bottom:22px}
+.ad-hero .eyebrow{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line-2);border-radius:100px;padding:7px 16px;margin-bottom:22px}
+.ad-hero .eyebrow .dot{width:6px;height:6px;border-radius:50%;background:#6fd68a;box-shadow:0 0 0 0 rgba(111,214,138,.6);animation:adpulse 2.4s infinite}
+@keyframes adpulse{0%{box-shadow:0 0 0 0 rgba(111,214,138,.55)}70%{box-shadow:0 0 0 9px rgba(111,214,138,0)}100%{box-shadow:0 0 0 0 rgba(111,214,138,0)}}
+.ad-hero h1{max-width:16ch;color:var(--cream);margin-bottom:18px}
+.ad-hero p.lead{max-width:52ch;margin-bottom:32px}
+.ad-hero .hero-cta{display:flex;flex-wrap:wrap;gap:14px}
+
+/* ---------- intro ---------- */
+.ad-intro{padding-block:clamp(64px,9vw,110px)}
+.ad-intro .grid{display:grid;gap:clamp(30px,4vw,60px);grid-template-columns:1fr}
+@media(min-width:900px){.ad-intro .grid{grid-template-columns:1.1fr .9fr;align-items:center}}
+.ad-intro .shot{aspect-ratio:5/4;border-radius:4px;overflow:hidden;box-shadow:0 40px 90px -40px rgba(0,0,0,.7)}
+.ad-intro .shot img{width:100%;height:100%;object-fit:cover;display:block}
+
+/* ---------- masterplan interativo ---------- */
+.ad-plan{padding-block:clamp(64px,9vw,110px);background:var(--panel)}
+.ad-plan-wrap{position:relative;border-radius:6px;overflow:hidden;box-shadow:0 40px 100px -40px rgba(0,0,0,.75);margin-top:clamp(30px,4vw,48px)}
+.ad-plan-wrap img{width:100%;display:block}
+.ad-pin{
+  position:absolute;transform:translate(-50%,-50%);width:34px;height:34px;border-radius:50%;
+  background:linear-gradient(180deg,#e8b968,#c0902f);color:#1a1305;font-family:var(--ui);font-weight:700;font-size:13px;
+  display:flex;align-items:center;justify-content:center;cursor:pointer;border:2px solid rgba(255,255,255,.85);
+  box-shadow:0 6px 18px -4px rgba(0,0,0,.6);transition:transform .2s ease,box-shadow .2s ease;z-index:3;
+}
+.ad-pin:hover,.ad-pin:focus-visible{transform:translate(-50%,-50%) scale(1.18);box-shadow:0 8px 26px -4px rgba(232,185,104,.7)}
+.ad-pin::after{content:"";position:absolute;inset:-8px;border-radius:50%;border:1px solid rgba(232,185,104,.5);animation:adring 2.6s infinite}
+@keyframes adring{0%{transform:scale(.8);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+.ad-plan-legend{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-size:12.5px;color:var(--muted)}
+.ad-plan-legend b{color:var(--gold-2);font-family:var(--ui)}
+
+/* ---------- galeria com lightbox ---------- */
+.ad-gallery{padding-block:clamp(64px,9vw,110px)}
+.ad-grid{display:grid;gap:14px;grid-template-columns:repeat(2,1fr);margin-top:clamp(30px,4vw,48px)}
+@media(min-width:700px){.ad-grid{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1080px){.ad-grid{grid-template-columns:repeat(4,1fr)}}
+.ad-tile{position:relative;aspect-ratio:4/3;border-radius:4px;overflow:hidden;cursor:zoom-in;background:var(--panel)}
+.ad-tile img{width:100%;height:100%;object-fit:cover;transition:transform .5s var(--ease)}
+.ad-tile:hover img{transform:scale(1.08)}
+.ad-tile .cap{position:absolute;left:0;right:0;bottom:0;padding:14px 16px 12px;
+  background:linear-gradient(0deg,rgba(11,9,6,.88),transparent);font-family:var(--ui);font-size:12.5px;letter-spacing:.03em;color:var(--cream)}
+
+/* ---------- lightbox ---------- */
+.ad-lb{position:fixed;inset:0;z-index:200;background:rgba(6,5,3,.94);display:none;align-items:center;justify-content:center;padding:28px}
+.ad-lb.open{display:flex}
+.ad-lb-inner{max-width:1100px;width:100%;text-align:center}
+.ad-lb img{max-width:100%;max-height:76vh;margin:0 auto;border-radius:4px;box-shadow:0 40px 100px -30px rgba(0,0,0,.8)}
+.ad-lb-cap{margin-top:16px}
+.ad-lb-cap h4{font-family:var(--serif);font-weight:400;font-size:20px;color:var(--gold-2)}
+.ad-lb-cap p{color:var(--muted);font-size:14.5px;margin-top:6px;max-width:64ch;margin-inline:auto}
+.ad-lb-close,.ad-lb-prev,.ad-lb-next{
+  position:fixed;background:rgba(255,255,255,.06);border:1px solid var(--line-2);color:var(--cream);
+  border-radius:50%;width:46px;height:46px;display:flex;align-items:center;justify-content:center;cursor:pointer;
+  transition:.2s;z-index:201;
+}
+.ad-lb-close:hover,.ad-lb-prev:hover,.ad-lb-next:hover{background:rgba(255,255,255,.14)}
+.ad-lb-close{top:24px;right:24px}
+.ad-lb-prev{left:24px;top:50%;transform:translateY(-50%)}
+.ad-lb-next{right:24px;top:50%;transform:translateY(-50%)}
+@media(max-width:640px){.ad-lb-prev,.ad-lb-next{width:38px;height:38px}}
+
+/* ---------- ubicación ---------- */
+.ad-loc{padding-block:clamp(64px,9vw,110px);background:var(--panel)}
+.ad-loc .grid{display:grid;gap:clamp(28px,4vw,56px);grid-template-columns:1fr}
+@media(min-width:900px){.ad-loc .grid{grid-template-columns:1.15fr .85fr}}
+.ad-loc img{border-radius:4px;box-shadow:0 30px 80px -30px rgba(0,0,0,.7)}
+
+/* ---------- financiamento ---------- */
+.ad-fin{
+  padding-block:clamp(80px,11vw,130px);text-align:center;position:relative;overflow:hidden;
+  background:linear-gradient(rgba(11,9,6,.72),rgba(11,9,6,.82)),url(../assets/aquadelta/club-deportivo.jpg) center/cover no-repeat;
+}
+.ad-fin .wrap{position:relative}
+.ad-fin p.lead{max-width:56ch;margin:16px auto clamp(30px,4vw,40px)}
+
+/* ---------- cta casas ---------- */
+.ad-casas{padding-block:clamp(56px,8vw,90px);background:var(--panel)}
+.ad-casas-card{
+  display:grid;gap:clamp(24px,4vw,40px);grid-template-columns:1fr;align-items:center;
+  border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel-2);
+}
+@media(min-width:820px){.ad-casas-card{grid-template-columns:1fr 1fr}}
+.ad-casas-card img{width:100%;height:100%;object-fit:cover;min-height:260px}
+.ad-casas-card .txt{padding:clamp(28px,4vw,44px)}
+
+/* ---------- CTA final ---------- */
+.ad-cta{padding-block:clamp(64px,9vw,100px);text-align:center}
+.ad-cta h2{max-width:20ch;margin:0 auto 18px}
+.ad-cta p{max-width:56ch;margin:0 auto 32px}
+
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+</style>
+</head>
+
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="hdr">
+    <div class="hdr-in">
+      <a class="brand" href="../index.html">
+        <img src="../assets/logo-sem-fundo.png" alt="Paraguai Global Group">
+        <span class="bt">PARAGUAI GLOBAL GROUP<small>REAL ESTATE</small></span>
+      </a>
+      <nav class="nav">
+        <a href="../index.html">Início</a>
+        <a href="../imoveis/">Imóveis</a>
+        <a href="../aquadelta/" class="active">Aquadelta</a>
+        <a href="../casas/">Modelos de Casa</a>
+        <a href="../avaliacao/">Avaliar Imóvel</a>
+        <a href="../time/">Nosso Time</a>
+        <a href="../contato/">Contato</a>
+      </nav>
+      <div class="hdr-tools">
+        <a class="hdr-phone" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.78 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.02zM12.04 20.15h-.01a8.23 8.23 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 015.83 2.42 8.2 8.2 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.31-.01-.47-.01-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29z" />
+          </svg>
+          +55 11 92477-1370
+        </a>
+        <button class="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="drawer">
+    <div class="drawer-top">
+      <a class="brand" href="../index.html"><img src="../assets/logo-sem-fundo.png" alt=""><span class="bt">PARAGUAI GLOBAL GROUP<small>REAL ESTATE</small></span></a>
+      <button class="drawer-close" aria-label="Fechar">&times;</button>
+    </div>
+    <nav>
+      <a href="../index.html">Início</a>
+      <a href="../imoveis/">Imóveis</a>
+      <a href="../aquadelta/" class="active">Aquadelta</a>
+      <a href="../casas/">Modelos de Casa</a>
+      <a href="../avaliacao/">Avaliar Imóvel</a>
+      <a href="../time/">Nosso Time</a>
+      <a href="../contato/">Contato</a>
+    </nav>
+    <div class="drawer-foot">
+      <a class="btn btn-gold" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">Falar com especialista</a>
+    </div>
+  </div>
+
+  <!-- ===== HERO EM VÍDEO ===== -->
+  <section class="ad-hero">
+    <video autoplay muted loop playsinline poster="../assets/aquadelta/hero-poster.jpg">
+      <source src="../assets/aquadelta/hero.mp4" type="video/mp4">
+    </video>
+    <div class="scrim"></div>
+    <div class="wrap">
+      <img class="ad-hero-logo" src="../assets/aquadelta/logo-aquadelta.png" alt="Aquadelta">
+      <div class="eyebrow">
+        <span class="dot"></span>
+        <span class="ui" style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)">Lançamento · Etapa 1 · Consulte valores no WhatsApp</span>
+      </div>
+      <h1 class="ad-serif h-xl">A primeira cidade construída aos pés do rio Paraguay.</h1>
+      <p class="lead">Mais de 200 hectares entre laguna de águas cristalinas, marina, clube náutico e paseo comercial — a 30 minutos do eixo corporativo de Assunção. Uma vida de fim de semana, todos os dias.</p>
+      <div class="hero-cta">
+        <a class="btn btn-gold" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">Quero mais informações</a>
+        <a class="btn btn-ghost" href="#masterplan">Explorar o masterplan</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTRO ===== -->
+  <section class="ad-intro">
+    <div class="wrap grid">
+      <div class="reveal">
+        <span class="eyebrow">Sobre o empreendimento</span>
+        <h2 class="ad-serif h-lg" style="margin:14px 0 20px">Volvé a soñar la vida que querés vivir.</h2>
+        <p class="lead" style="margin-bottom:16px">Aquadelta, em um entorno natural de mais de 200 hectares e localizado a apenas 30 minutos do eixo corporativo de Assunção, oferece a possibilidade de viver "uma vida de fim de semana, todos os dias", em conexão direta com o rio, a natureza e amenities de primeiro nível.</p>
+        <p class="muted">Concebido como uma cidade sustentável, o projeto é resultado da experiência comprovada da Raíces Real Estate — mais de 20 bairros fechados lançados com sucesso — somada ao expertise de profissionais nacionais e internacionais em urbanismo, hidrologia, viário e biologia.</p>
+      </div>
+      <div class="shot reveal"><img src="../assets/aquadelta/costa-noche.jpg" alt="Vista noturna da costanera do Aquadelta"></div>
+    </div>
+  </section>
+
+  <!-- ===== MASTERPLAN INTERATIVO ===== -->
+  <section class="ad-plan" id="masterplan">
+    <div class="wrap">
+      <span class="eyebrow">Masterplan</span>
+      <h2 class="ad-serif h-lg" style="margin:14px 0 10px">Tudo o que você precisa está em Aquadelta.</h2>
+      <p class="lead">Clique nos números do mapa para conhecer cada área do empreendimento.</p>
+
+      <div class="ad-plan-wrap">
+        <img src="../assets/aquadelta/masterplan.jpg" alt="Masterplan do Aquadelta">
+        <button class="ad-pin" style="top:46%;left:41%" data-modal="m-laguna">1</button>
+        <button class="ad-pin" style="top:57%;left:85%" data-modal="m-portico-principal">2</button>
+        <button class="ad-pin" style="top:53%;left:80%" data-modal="m-deportivo">3</button>
+        <button class="ad-pin" style="top:60%;left:91%" data-modal="m-comercial">4</button>
+        <button class="ad-pin" style="top:50%;left:74%" data-modal="m-comercial2">5</button>
+        <button class="ad-pin" style="top:21%;left:17%" data-modal="m-guarderia">6</button>
+        <button class="ad-pin" style="top:30%;left:36%" data-modal="m-fogones">7</button>
+        <button class="ad-pin" style="top:30%;left:38%" data-modal="m-park">8</button>
+        <button class="ad-pin" style="top:30%;left:15%" data-modal="m-restaurante">9</button>
+        <button class="ad-pin" style="top:27%;left:18%" data-modal="m-marina">10</button>
+        <button class="ad-pin" style="top:26%;left:13%" data-modal="m-costanera">11</button>
+      </div>
+
+      <div class="ad-plan-legend">
+        <span><b>1</b> Laguna e praias</span>
+        <span><b>2</b> Pórtico principal</span>
+        <span><b>3</b> Club house desportivo</span>
+        <span><b>4</b> Paseo comercial</span>
+        <span><b>5</b> Comercial e gastronômico</span>
+        <span><b>6</b> Guardería náutica</span>
+        <span><b>7</b> Living e fogueiras</span>
+        <span><b>8</b> Central Park</span>
+        <span><b>9</b> Restaurante náutico</span>
+        <span><b>10</b> Marina e amarras</span>
+        <span><b>11</b> Costanera</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- modais do masterplan (conteúdo, reaproveitado pela lightbox) -->
+  <div class="ad-modal-data" hidden>
+    <div id="m-laguna" data-img="../assets/aquadelta/laguna.jpg" data-title="Laguna e praias" data-desc="3,1 hectares de laguna de águas cristalinas, com tecnologia de geração de ondas, rodeada por praias de areia branca e um Wet Cocktail Bar."></div>
+    <div id="m-portico-principal" data-img="../assets/aquadelta/portico-principal.jpg" data-title="Pórtico principal" data-desc="Entrada monumental do empreendimento, o primeiro contato com a arquitetura e o paisagismo do Aquadelta."></div>
+    <div id="m-deportivo" data-img="../assets/aquadelta/club-deportivo.jpg" data-title="Club House Desportivo" data-desc="Área desportiva de mais de 46.000 m² com quadras para diferentes modalidades, piscina, quinchos e caminhos internos."></div>
+    <div id="m-comercial" data-img="../assets/aquadelta/comercial-1.jpg" data-title="Paseo Comercial" data-desc="86.000 m² dedicados a uma ampla variedade de lojas retail: supermercado, boutiques, eletrônicos e artigos para o lar."></div>
+    <div id="m-comercial2" data-img="../assets/aquadelta/comercial-2.jpg" data-title="Comercial e gastronômico" data-desc="Paseo gastronômico com restaurantes, cafés, pubs e sorveterias, com uma oferta culinária variada."></div>
+    <div id="m-guarderia" data-img="../assets/aquadelta/guarderia-nautica.jpg" data-title="Guardería Náutica" data-desc="Serviço de guarda de embarcações, rampa de embarque e amarração — pensado para quem vive à beira do rio."></div>
+    <div id="m-fogones" data-img="../assets/aquadelta/living-fogones.jpg" data-title="Living e fogueiras" data-desc="Pulmões verdes espalhados pelo bairro, com livings ao ar livre e fogueiras para compartilhar momentos em família."></div>
+    <div id="m-park" data-img="../assets/aquadelta/central-park.jpg" data-title="Central Park" data-desc="Grande área verde central, o coração paisagístico do Aquadelta, conectando os diferentes setores do bairro."></div>
+    <div id="m-restaurante" data-img="../assets/aquadelta/restaurante-nautico.jpg" data-title="Restaurante Náutico" data-desc="Restaurante exclusivo com terraços junto ao rio, ideal para uma experiência gastronômica em família ou com amigos."></div>
+    <div id="m-marina" data-img="../assets/aquadelta/marina-amarras.jpg" data-title="Marina e amarras" data-desc="Muelle a menos de 10 minutos por água do Club Centenario em Surubi'í, com amarras para embarcações."></div>
+    <div id="m-costanera" data-img="../assets/aquadelta/costanera.jpg" data-title="Costanera" data-desc="Explanada em três níveis de contemplação ao longo da margem do rio, com pérgolas, paisagismo e o ícone artístico do bairro."></div>
+  </div>
+
+  <!-- ===== GALERIA ===== -->
+  <section class="ad-gallery">
+    <div class="wrap">
+      <span class="eyebrow">Galeria</span>
+      <h2 class="ad-serif h-lg" style="margin:14px 0 10px">Conectado com a harmonia da natureza.</h2>
+      <p class="lead">Clique em qualquer foto para ver em tamanho completo.</p>
+
+      <div class="ad-grid" id="ad-gallery-grid">
+        <div class="ad-tile" data-lb="0"><img src="../assets/aquadelta/laguna-2.jpg" alt="Laguna do Aquadelta"><span class="cap">Laguna de águas cristalinas</span></div>
+        <div class="ad-tile" data-lb="1"><img src="../assets/aquadelta/costa.png" alt="Costa do Aquadelta"><span class="cap">Costa e praia de areia branca</span></div>
+        <div class="ad-tile" data-lb="2"><img src="../assets/aquadelta/marina-amarras.jpg" alt="Marina do Aquadelta"><span class="cap">Marina e amarras</span></div>
+        <div class="ad-tile" data-lb="3"><img src="../assets/aquadelta/club-deportivo.jpg" alt="Club House Desportivo"><span class="cap">Club House Desportivo</span></div>
+        <div class="ad-tile" data-lb="4"><img src="../assets/aquadelta/restaurante.png" alt="Restaurante do Aquadelta"><span class="cap">Restaurante à beira do rio</span></div>
+        <div class="ad-tile" data-lb="5"><img src="../assets/aquadelta/paseo-comercial-2.jpg" alt="Paseo Comercial"><span class="cap">Paseo Comercial</span></div>
+        <div class="ad-tile" data-lb="6"><img src="../assets/aquadelta/costanera.jpg" alt="Costanera do Aquadelta"><span class="cap">Costanera</span></div>
+        <div class="ad-tile" data-lb="7"><img src="../assets/aquadelta/garden-market.jpg" alt="Garden Market"><span class="cap">Garden Market</span></div>
+        <div class="ad-tile" data-lb="8"><img src="../assets/aquadelta/oficinas.png" alt="Oficinas corporativas"><span class="cap">Oficinas corporativas</span></div>
+        <div class="ad-tile" data-lb="9"><img src="../assets/aquadelta/colegio.png" alt="Colegio"><span class="cap">Colégio bilíngue</span></div>
+        <div class="ad-tile" data-lb="11"><img src="../assets/aquadelta/estacionamiento.jpg" alt="Estacionamento"><span class="cap">Estacionamento</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- lightbox -->
+  <div class="ad-lb" id="ad-lb">
+    <button class="ad-lb-close" id="ad-lb-close" aria-label="Fechar">✕</button>
+    <button class="ad-lb-prev" id="ad-lb-prev" aria-label="Anterior">‹</button>
+    <button class="ad-lb-next" id="ad-lb-next" aria-label="Próxima">›</button>
+    <div class="ad-lb-inner">
+      <img id="ad-lb-img" src="" alt="">
+      <div class="ad-lb-cap">
+        <h4 id="ad-lb-title"></h4>
+        <p id="ad-lb-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== UBICACIÓN ===== -->
+  <section class="ad-loc" id="ubicacion">
+    <div class="wrap grid">
+      <img class="reveal" src="../assets/aquadelta/plano-ubicacion.jpg" alt="Localização do Aquadelta próximo a Assunção">
+      <div class="reveal">
+        <span class="eyebrow">Localização</span>
+        <h2 class="ad-serif h-lg" style="margin:14px 0 18px">Uma cidade a minutos de Assunção.</h2>
+        <p class="lead" style="margin-bottom:16px">A apenas 30 minutos do eixo corporativo de Assunção, o Aquadelta conecta a vida urbana ao rio, à natureza e a amenities de primeiro nível — para compartilhar com a família e amigos.</p>
+        <a class="btn btn-gold" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">Como chegar / agendar visita</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FINANCIAMENTO ===== -->
+  <section class="ad-fin">
+    <div class="wrap">
+      <span class="eyebrow">Investimento</span>
+      <h2 class="ad-serif h-lg" style="margin:14px 0">Seu lote em Aquadelta, com condições sob consulta.</h2>
+      <p class="lead">Valores, entrada e financiamento variam por lote e etapa. Fale com nosso time no WhatsApp e receba a tabela atualizada.</p>
+      <a class="btn btn-gold" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">Consultar valores no WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- ===== CTA CASAS ===== -->
+  <section class="ad-casas">
+    <div class="wrap">
+      <div class="ad-casas-card">
+        <img src="../assets/casas/moderna/ext-1.jpg" alt="Modelo de casa Blue Rock Moderna">
+        <div class="txt">
+          <span class="eyebrow">Já tem seu lote?</span>
+          <h3 class="ad-serif h-md" style="margin:14px 0 14px">Conheça os modelos de casa Blue Rock, projetados para o Aquadelta.</h3>
+          <p class="muted" style="margin-bottom:22px">Dois anteprojetos completos — Moderna e Colonial — assinados pelo escritório BOLD Arquitectura, prontos para construir no seu lote em Aquadelta.</p>
+          <a class="btn btn-gold" href="../casas/">Ver modelos de casa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA FINAL ===== -->
+  <section class="ad-cta">
+    <div class="wrap">
+      <span class="eyebrow">Fale com nosso time</span>
+      <h2 class="ad-serif h-lg">Bem-vindo ao Aquadelta.</h2>
+      <p class="lead">O equilíbrio perfeito entre a harmonia da natureza e os últimos avanços de tecnologia em infraestrutura. Fale com nosso time e agende sua visita.</p>
+      <a class="btn btn-gold" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">Falar com especialista</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="foot">
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <div class="fbrand"><img src="../assets/logo-sem-fundo.png" alt=""><span class="bt">PARAGUAI GLOBAL GROUP<small>REAL
+                ESTATE</small></span></div>
+          <p class="about">Assessoria imobiliária de alto padrão no Paraguai. Compra, venda e
+            investimento com segurança jurídica e visão de patrimônio.</p>
+          <div class="socials">
+            <a href="https://instagram.com/paraguaiglobal" target="_blank" aria-label="Instagram"><svg width="18"
+                height="18" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="14" height="14" rx="4" />
+                <circle cx="9" cy="9" r="3.2" />
+                <circle cx="13.2" cy="4.8" r=".9" fill="currentColor" />
+              </svg></a>
+            <a href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank" aria-label="WhatsApp"><svg width="18" height="18"
+                viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.78 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.02zM12.04 20.15h-.01a8.23 8.23 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 015.83 2.42 8.2 8.2 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.31-.01-.47-.01-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29z" />
+              </svg></a>
+          </div>
+        </div>
+        <div>
+          <h5>Navegar</h5>
+          <a href="../index.html">Início</a>
+          <a href="../imoveis/">Imóveis</a>
+          <a href="../aquadelta/">Aquadelta</a>
+          <a href="../casas/">Modelos de Casa</a>
+          <a href="../time/">Nosso Time</a>
+        </div>
+        <div>
+          <h5>Serviços</h5>
+          <a href="../contato/">Comprar</a>
+          <a href="../avaliacao/">Vender</a>
+          <a href="../contato/">Comprar com orientação</a>
+          <a href="../avaliacao/">Avaliar Imóvel</a>
+        </div>
+        <div>
+          <h5>Contato</h5>
+          <a href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">🇧🇷 +55 11 92477-1370</a>
+          <a href="mailto:paraguaiglobal@gmail.com">paraguaiglobal@gmail.com</a>
+          <a href="https://instagram.com/paraguaiglobal" target="_blank">@paraguaiglobal</a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span class="year">2026</span> Paraguai Global Group Real Estate · Todos os direitos reservados.</span>
+        <span>Asunción · Ciudad del Este · Encarnación</span>
+      </div>
+      <address style="font-style:normal;margin-top:14px;font-size:12px;line-height:1.6;opacity:.9">Av. Aviadores del Chaco, nº 2581 · 8º andar<br />Asunción, Paraguay</address>
+      <p style="margin:10px 0 0;font-size:12px;line-height:1.6;opacity:.75">Conteúdo informativo, não é recomendação de investimento, cada caso exige análise individual.</p>
+    </div>
+  </footer>
+
+  <a class="wa-float" href="https://wa.me/5511924771370?text=Ol%C3%A1,%20tudo%20bem?%20Vim%20pelo%20site,%20queria%20mais%20informa%C3%A7%C3%B5es." target="_blank">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M19.05 4.91A9.82 9.82 0 0012.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 004.78 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.02zM12.04 20.15h-.01a8.23 8.23 0 01-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 01-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24a8.2 8.2 0 015.83 2.42 8.2 8.2 0 012.41 5.83c0 4.54-3.7 8.24-8.24 8.24zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43-.14 0-.31-.01-.47-.01-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29z" />
+    </svg>
+    WhatsApp
+  </a>
+
+  <script src="../assets/site.js"></script>
+  <script>
+  (function(){
+    // revelação na rolagem
+    var alvos = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      var obs = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('in'); obs.unobserve(en.target); } });
+      }, { rootMargin: '0px 0px -60px 0px' });
+      alvos.forEach(function(a){ obs.observe(a); });
+    } else { alvos.forEach(function(a){ a.classList.add('in'); }); }
+
+    // ---- lightbox da galeria ----
+    var tiles = Array.prototype.slice.call(document.querySelectorAll('.ad-tile'));
+    var lb = document.getElementById('ad-lb');
+    var lbImg = document.getElementById('ad-lb-img');
+    var lbTitle = document.getElementById('ad-lb-title');
+    var lbDesc = document.getElementById('ad-lb-desc');
+    var current = 0;
+
+    function dataFromTile(tile){
+      var img = tile.querySelector('img');
+      return { src: img.src, title: tile.querySelector('.cap').textContent, desc: '' };
+    }
+    function openLb(i){
+      current = i;
+      var d = dataFromTile(tiles[i]);
+      lbImg.src = d.src; lbTitle.textContent = d.title; lbDesc.textContent = d.desc;
+      lb.classList.add('open');
+    }
+    tiles.forEach(function(t, i){ t.addEventListener('click', function(){ openLb(i); }); });
+
+    document.getElementById('ad-lb-close').addEventListener('click', function(){ lb.classList.remove('open'); });
+    lb.addEventListener('click', function(e){ if (e.target === lb) lb.classList.remove('open'); });
+    document.getElementById('ad-lb-prev').addEventListener('click', function(){ openLb((current - 1 + tiles.length) % tiles.length); });
+    document.getElementById('ad-lb-next').addEventListener('click', function(){ openLb((current + 1) % tiles.length); });
+    document.addEventListener('keydown', function(e){
+      if (!lb.classList.contains('open')) return;
+      if (e.key === 'Escape') lb.classList.remove('open');
+      if (e.key === 'ArrowLeft') openLb((current - 1 + tiles.length) % tiles.length);
+      if (e.key === 'ArrowRight') openLb((current + 1) % tiles.length);
+    });
+
+    // ---- modais dos pins do masterplan (reaproveita a mesma lightbox) ----
+    var pins = Array.prototype.slice.call(document.querySelectorAll('.ad-pin'));
+    pins.forEach(function(pin){
+      pin.addEventListener('click', function(){
+        var data = document.getElementById(pin.dataset.modal);
+        if (!data) return;
+        lbImg.src = data.dataset.img;
+        lbTitle.textContent = data.dataset.title;
+        lbDesc.textContent = data.dataset.desc;
+        // pins nao fazem parte do array de tiles: desativa prev/next nesse contexto
+        current = -1;
+        lb.classList.add('open');
+      });
+    });
+  })();
+  </script>
+<script src="/pg-preview-escura/assets/lead-gate.js" defer></script>
+</body>
+
+</html>

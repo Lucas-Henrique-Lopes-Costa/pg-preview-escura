@@ -1,0 +1,14 @@
+node_modules/
+build/tw.raw.css
+.DS_Store
+
+# Videos originais do Rafao: fonte pesada, o site usa as versoes
+# comprimidas em assets/videos/
+videos sites/
+
+# Captura de site de terceiro usada como referencia de projeto (nao publicar)
+ref/
+
+# Orçamentos: o texto aberto de cada cliente fica só aqui na máquina;
+# no site vai apenas a versão criptografada em orcamento/<cliente>/
+orcamento/_fontes/
